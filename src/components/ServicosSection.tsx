@@ -91,27 +91,30 @@ const ServicosSection = () => {
 
         {/* Process steps */}
         <motion.div {...fadeInUp}>
-          <h3 className="font-display font-bold text-2xl text-center mb-10">
+          <h3 className="font-display font-bold text-2xl text-center mb-14">
             Nosso Processo
           </h3>
-          <div className="flex flex-col md:flex-row items-stretch gap-4 max-w-5xl mx-auto">
-            {steps.map((step, i) => (
-              <motion.div
-                key={step.num}
-                {...fadeInUp}
-                transition={{ delay: i * 0.1 }}
-                className="flex-1 glass-card p-5 text-center relative"
-              >
-                <div className="font-display font-bold text-3xl text-primary/30 mb-2">
-                  {step.num}
-                </div>
-                <h4 className="font-display font-bold text-sm mb-1">{step.title}</h4>
-                <p className="text-xs text-muted-foreground">{step.desc}</p>
-                {i < steps.length - 1 && (
-                  <div className="hidden md:block absolute top-1/2 -right-3 w-6 h-0.5 bg-primary/30" />
-                )}
-              </motion.div>
-            ))}
+          <div className="relative max-w-5xl mx-auto">
+            {/* Connecting line */}
+            <div className="hidden md:block absolute top-6 left-[10%] right-[10%] h-0.5 bg-primary/30" />
+            
+            <div className="flex flex-col md:flex-row items-start justify-between gap-8 md:gap-4">
+              {steps.map((step, i) => (
+                <motion.div
+                  key={step.num}
+                  {...fadeInUp}
+                  transition={{ delay: i * 0.15 }}
+                  className="flex-1 flex flex-col items-center text-center relative"
+                >
+                  {/* Circle dot */}
+                  <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-display font-bold text-sm mb-4 relative z-10 shadow-green-glow">
+                    {step.num}
+                  </div>
+                  <h4 className="font-display font-bold text-sm mb-1">{step.title}</h4>
+                  <p className="text-xs text-muted-foreground max-w-[160px]">{step.desc}</p>
+                </motion.div>
+              ))}
+            </div>
           </div>
         </motion.div>
       </div>

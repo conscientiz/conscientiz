@@ -42,7 +42,7 @@ const fadeInUp = {
 
 const ValoresSection = () => {
   return (
-    <section id="valores" className="py-24 bg-navy-deep relative">
+    <section id="valores" className="py-24 section-light relative">
       <div className="container mx-auto px-4">
         <motion.div {...fadeInUp} className="text-center mb-6">
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">

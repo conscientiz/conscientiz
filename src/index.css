@@ -110,4 +110,33 @@
     @apply backdrop-blur-md border border-border/30 rounded-xl;
     background: linear-gradient(145deg, hsl(207 62% 18% / 0.5), hsl(207 62% 14% / 0.3));
   }
+
+  .glass-card-light {
+    @apply border border-gray-200 rounded-xl bg-white shadow-sm;
+  }
+
+  .section-light {
+    @apply bg-white text-gray-900;
+  }
+
+  .section-light .text-muted-foreground {
+    color: hsl(207 20% 40%);
+  }
+
+  .section-light .text-foreground {
+    color: hsl(207 62% 14%);
+  }
+
+  .section-light .glass-card {
+    @apply border border-gray-200 rounded-xl shadow-sm;
+    background: white;
+  }
+
+  .section-light .border-border\/30 {
+    border-color: hsl(207 20% 85%);
+  }
+
+  .section-light .border-border\/20 {
+    border-color: hsl(207 20% 90%);
+  }
 }

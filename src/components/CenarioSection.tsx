@@ -32,7 +32,7 @@ const fadeInUp = {
 
 const CenarioSection = () => {
   return (
-    <section id="cenario" className="py-24 bg-navy-deep relative">
+    <section id="cenario" className="py-24 section-light relative">
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div {...fadeInUp} className="text-center mb-16">

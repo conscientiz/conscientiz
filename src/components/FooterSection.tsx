@@ -1,4 +1,5 @@
-import { Shield, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
+import logo from "@/assets/logoconscie.png";
 
 const FooterSection = () => {
   return (
@@ -7,11 +8,8 @@ const FooterSection = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-lg bg-gradient-green flex items-center justify-center">
-                <Shield className="w-5 h-5 text-accent-foreground" />
-              </div>
-              <span className="font-display font-bold text-lg">Conscientiz</span>
+            <div className="mb-4">
+              <img src={logo} alt="ConscientiZ" className="h-10" />
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Segurança Digital baseada em consciência humana. Transformamos
@@ -54,13 +52,13 @@ const FooterSection = () => {
                 conscientizsequrancadigital@gmail.com
               </a>
               <a
-                href="https://wa.me/5511984844404"
+                href="https://wa.me/551151943047"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Phone className="w-4 h-4 text-primary" />
-                (11) 98484-4404
+                (11) 5194-3047
               </a>
             </div>
 

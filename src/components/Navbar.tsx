@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Shield, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logo from "@/assets/logoconscie.png";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
@@ -16,13 +17,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-navy-deep/80 backdrop-blur-lg border-b border-border/20">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-lg bg-gradient-green flex items-center justify-center">
-            <Shield className="w-5 h-5 text-accent-foreground" />
-          </div>
-          <span className="font-display font-bold text-lg text-foreground">
-            Conscientiz
-          </span>
+        <a href="#">
+          <img src={logo} alt="ConscientiZ" className="h-9" />
         </a>
 
         {/* Desktop */}

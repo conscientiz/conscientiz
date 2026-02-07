@@ -9,7 +9,7 @@ const FooterSection = () => {
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <img src={logo} alt="ConscientiZ" className="h-10" />
+              <img src={logo} alt="ConscientiZ" className="h-12" />
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Segurança Digital baseada em consciência humana. Transformamos

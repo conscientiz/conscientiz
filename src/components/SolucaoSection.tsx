@@ -64,7 +64,7 @@ const SolucaoSection = () => {
               key={f.title}
               {...fadeInUp}
               transition={{ delay: i * 0.1 }}
-              className="glass-card p-6 text-center hover:shadow-green-glow transition-all group"
+              className="glass-card p-6 text-center hover:shadow-green-glow hover:scale-105 hover:-translate-y-1 transition-all duration-300 group"
             >
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
                 <f.icon className="w-7 h-7 text-primary" />

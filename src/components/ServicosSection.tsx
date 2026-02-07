@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Crosshair, ClipboardList, Megaphone, Settings, Check } from "lucide-react";
+import { Crosshair, ClipboardList, Megaphone, Settings, Check, GraduationCap, Shield } from "lucide-react";
 
 const servicos = [
   {
@@ -26,6 +26,18 @@ const servicos = [
     desc: "Operação end-to-end do programa de segurança humana, do planejamento à execução e medição.",
     items: ["Planejamento estratégico", "Execução contínua", "Métricas de evolução", "Suporte dedicado"],
   },
+  {
+    icon: GraduationCap,
+    title: "Treinamentos para Colaboradores",
+    desc: "90% dos ataques começam com erro humano. Programas de conscientização e compliance que blindam sua empresa de dentro para fora, atendendo ISO 27001, NIST e LGPD.",
+    items: ["Firewall Humano: Conscientização", "Phishing e Engenharia Social", "Segurança no Home Office", "Senhas e MFA"],
+  },
+  {
+    icon: Shield,
+    title: "Treinamentos de Compliance",
+    desc: "Programas especializados para conformidade regulatória e públicos específicos, da LGPD na prática à defesa executiva contra fraudes.",
+    items: ["LGPD e Proteção de Dados", "Classificação e Mesa Limpa", "Defesa Executiva (CEO/BEC)", "Resposta a Incidentes"],
+  },
 ];
 
 const steps = [
@@ -44,7 +56,7 @@ const fadeInUp = {
 
 const ServicosSection = () => {
   return (
-    <section id="servicos" className="py-24 bg-background relative">
+    <section id="servicos" className="py-24 section-light relative">
       <div className="container mx-auto px-4">
         <motion.div {...fadeInUp} className="text-center mb-16">
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">
@@ -66,7 +78,7 @@ const ServicosSection = () => {
               key={s.title}
               {...fadeInUp}
               transition={{ delay: i * 0.1 }}
-              className="glass-card p-6 hover:border-primary/30 transition-all"
+              className="glass-card p-6 hover:border-primary/30 hover:scale-105 hover:-translate-y-1 transition-all duration-300"
             >
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">

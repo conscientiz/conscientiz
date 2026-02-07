@@ -139,4 +139,24 @@
   .section-light .border-border\/20 {
     border-color: hsl(207 20% 90%);
   }
+
+  .card-hover-line {
+    position: relative;
+    overflow: hidden;
+  }
+  .card-hover-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(135deg, hsl(93 47% 47%), hsl(75 55% 56%));
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    z-index: 10;
+  }
+  .card-hover-line:hover::before {
+    transform: scaleX(1);
+  }
 }

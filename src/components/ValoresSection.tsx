@@ -63,7 +63,7 @@ const ValoresSection = () => {
               key={v.title}
               {...fadeInUp}
               transition={{ delay: i * 0.1 }}
-              className="glass-card p-6 hover:border-primary/40 transition-all group"
+              className="glass-card p-6 hover:border-primary/40 hover:scale-105 hover:-translate-y-1 transition-all duration-300 group card-hover-line"
             >
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                 <v.icon className="w-6 h-6 text-primary" />

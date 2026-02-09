@@ -5,8 +5,8 @@ const servicos = [
   {
     icon: Crosshair,
     title: "Simulação de Phishing",
-    desc: "Campanhas realistas de phishing com templates personalizados e feedback imediato através de 'Teachable Moments'.",
-    items: ["Phishing personalizado", "Spear phishing", "Smishing (SMS)", "Vishing (Voz)"],
+    desc: "Teste a resiliência do seu time com campanhas sob medida — do disparo mensal ao plano anual — e transforme cada clique em aprendizado com feedback imediato via 'Teachable Moments'.",
+    items: ["Phishing mensal, trimestral ou anual", "Spear phishing direcionado", "Templates personalizados", "Relatórios de evolução"],
   },
   {
     icon: ClipboardList,
@@ -24,7 +24,7 @@ const servicos = [
     icon: Settings,
     title: "Gestão Completa",
     desc: "Operação end-to-end do programa de segurança humana, do planejamento à execução e medição.",
-    items: ["Planejamento estratégico", "Execução contínua", "Métricas de evolução", "Suporte dedicado"],
+    items: ["Planejamento estratégico", "Execução contínua", "Métricas de evolução", "Suporte"],
   },
   {
     icon: GraduationCap,

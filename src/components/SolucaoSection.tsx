@@ -28,8 +28,7 @@ const comparison = [
   { label: "Custo de Licença Anual", gophish: "R$ 0", market: "R$ 50-200k", gophishGood: true },
   { label: "Controle de Dados", gophish: "Total (On-Premise)", market: "Nuvem do fornecedor", gophishGood: true },
   { label: "Conformidade LGPD", gophish: "Garantida", market: "Depende", gophishGood: true },
-  { label: "Customização", gophish: "Ilimitada", market: "Limitada ao plano", gophishGood: true },
-  { label: "Dependência de Fornecedor", gophish: "Zero", market: "Total", gophishGood: true },
+  { label: "Customização", gophish: "Sob medida por projeto", market: "Limitada ao plano", gophishGood: true },
 ];
 
 const fadeInUp = {

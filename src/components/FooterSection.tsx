@@ -25,7 +25,7 @@ const FooterSection = () => {
             <ul className="space-y-2">
               {[
                 { href: "#cenario", label: "O Cenário" },
-                { href: "#solucao", label: "Solução Gophish" },
+                { href: "#solucao", label: "Nossa Metodologia" },
                 { href: "#valores", label: "Nossos Valores" },
                 { href: "#servicos", label: "Serviços" },
               ].map((link) => (
@@ -45,11 +45,11 @@ const FooterSection = () => {
             </h4>
             <div className="space-y-3">
               <a
-                href="mailto:conscientizsequrancadigital@gmail.com"
+                href="mailto:contato@conscientiz.com.br"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail className="w-4 h-4 text-primary" />
-                conscientizsequrancadigital@gmail.com
+                contato@conscientiz.com.br
               </a>
               <a
                 href="https://wa.me/551151943047"

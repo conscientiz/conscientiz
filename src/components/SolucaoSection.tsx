@@ -82,7 +82,7 @@ const SolucaoSection = () => {
             {/* Header */}
             <div className="grid grid-cols-3 gap-4 p-4 border-b border-border/30 bg-primary/5">
               <div className="font-semibold text-sm text-muted-foreground">Característica</div>
-              <div className="font-semibold text-sm text-primary text-center">Gophish + ConscientiZ</div>
+              <div className="font-semibold text-sm text-primary text-center">Metodologia ConscientiZ</div>
               <div className="font-semibold text-sm text-muted-foreground text-center">Soluções de Mercado</div>
             </div>
             {/* Rows */}

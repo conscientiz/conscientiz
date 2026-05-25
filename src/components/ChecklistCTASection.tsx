@@ -42,7 +42,7 @@ const ChecklistCTASection = () => {
           >
             <Input
               type="email"
-              required
+              required={false}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Seu melhor e-mail corporativo"

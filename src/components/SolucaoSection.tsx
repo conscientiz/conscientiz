@@ -44,15 +44,14 @@ const SolucaoSection = () => {
         {/* Header */}
         <motion.div {...fadeInUp} className="text-center mb-16">
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">
-            Nossa Solução
+            Metodologia ConscientiZ
           </span>
           <h2 className="font-display font-bold text-3xl md:text-4xl lg:text-5xl mt-3 mb-6">
-            Gophish + Metodologia{" "}
+            Metodologia{" "}
             <span className="text-gradient-green">ConscientiZ</span>
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto text-lg">
-            Unimos o poder da plataforma Open Source Gophish com nossa metodologia
-            educativa exclusiva para criar mudança real de comportamento.
+            A maioria dos programas de segurança é criada por times de TI que aprenderam a comunicar. O nosso foi criado por especialistas em comunicação que dominam segurança — e que operam programas assim todos os dias.
           </p>
         </motion.div>
 

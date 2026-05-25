@@ -52,13 +52,13 @@ const FooterSection = () => {
                 contato@conscientiz.com.br
               </a>
               <a
-                href="https://wa.me/551151943047"
+                href="https://wa.me/551152418998"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Phone className="w-4 h-4 text-primary" />
-                (11) 5194-3047
+                (11) 5241-8998
               </a>
             </div>
 

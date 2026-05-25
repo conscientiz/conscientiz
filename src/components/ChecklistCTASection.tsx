@@ -9,12 +9,11 @@ const ChecklistCTASection = () => {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    if (!email) return;
-    toast({
-      title: "Checklist a caminho!",
-      description: `Enviaremos o material para ${email} em instantes.`,
-    });
-    setEmail("");
+    window.open(
+      "https://raw.githubusercontent.com/conscientiz/conscientiz/main/public/conscientiz-checklist.pdf",
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
 
   return (
@@ -43,7 +42,7 @@ const ChecklistCTASection = () => {
           >
             <Input
               type="email"
-              required
+              required={false}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Seu melhor e-mail corporativo"

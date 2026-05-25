@@ -6,7 +6,6 @@ const stats = [
   { value: "+5 anos", label: "Operando programas de awareness", color: "text-green-brand" },
   { value: "LGPD", label: "Conformidade garantida pela metodologia", color: "text-green-light" },
   { value: "R$0", label: "Custo de licença de plataforma", color: "text-foreground" },
-  { value: "On-Premise", label: "Soberania de Dados", color: "text-green-brand" },
 ];
 
 const HeroSection = () => {

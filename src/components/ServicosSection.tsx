@@ -1,42 +1,24 @@
 import { motion } from "framer-motion";
-import { Crosshair, ClipboardList, Megaphone, Settings, Check, GraduationCap, Shield } from "lucide-react";
+import { Search, Shield, Megaphone, Check } from "lucide-react";
 
 const servicos = [
   {
-    icon: Crosshair,
-    title: "Simulação de Phishing",
-    desc: "Teste a resiliência do seu time com campanhas sob medida — do disparo mensal ao plano anual — e transforme cada clique em aprendizado com feedback imediato via 'Teachable Moments'.",
-    items: ["Phishing mensal, trimestral ou anual", "Spear phishing direcionado", "Templates personalizados", "Relatórios de evolução"],
-  },
-  {
-    icon: ClipboardList,
-    title: "Pesquisa de Comportamento",
-    desc: "Diagnóstico completo da maturidade em segurança da organização através de pesquisas culturais.",
-    items: ["Análise de maturidade", "Mapeamento de riscos", "Benchmarking", "Relatórios executivos"],
-  },
-  {
-    icon: Megaphone,
-    title: "Comunicação",
-    desc: "Campanhas de conscientização alinhadas aos objetivos e desafios específicos da sua organização.",
-    items: ["Materiais educativos", "Newsletters", "Vídeos interativos", "Gamificação"],
-  },
-  {
-    icon: Settings,
-    title: "Gestão Completa",
-    desc: "Operação end-to-end do programa de segurança humana, do planejamento à execução e medição.",
-    items: ["Planejamento estratégico", "Execução contínua", "Métricas de evolução", "Suporte"],
-  },
-  {
-    icon: GraduationCap,
-    title: "Treinamentos para Colaboradores",
-    desc: "90% dos ataques começam com erro humano. Programas de conscientização e compliance que blindam sua empresa de dentro para fora, atendendo ISO 27001, NIST e LGPD.",
-    items: ["Firewall Humano: Conscientização", "Phishing e Engenharia Social", "Segurança no Home Office", "Senhas e MFA"],
+    icon: Search,
+    title: "Diagnóstico de Maturidade",
+    desc: "Avaliamos o nível real de comportamento seguro da sua organização. Pesquisa cultural, mapeamento de riscos humanos e relatório executivo com plano de ação. O ponto de partida para qualquer programa sério de segurança.",
+    items: ["Pesquisa de comportamento", "Análise de maturidade", "Relatório executivo", "Plano de ação priorizado"],
   },
   {
     icon: Shield,
-    title: "Treinamentos de Compliance",
-    desc: "Programas especializados para conformidade regulatória e públicos específicos, da LGPD na prática à defesa executiva contra fraudes.",
-    items: ["LGPD e Proteção de Dados", "Classificação e Mesa Limpa", "Defesa Executiva (CEO/BEC)", "Resposta a Incidentes"],
+    title: "Programa de Conscientização Contínua",
+    desc: "Gestão completa do programa de segurança humana da sua organização — do planejamento à execução e medição. Simulações, comunicação, treinamentos e métricas reais de evolução mês a mês.",
+    items: ["Simulações de phishing", "Campanhas de comunicação", "Treinamentos direcionados", "Métricas de evolução", "Suporte contínuo"],
+  },
+  {
+    icon: Megaphone,
+    title: "Treinamentos e Campanhas Pontuais",
+    desc: "Para empresas que precisam de ações específicas — onboarding de colaboradores, conformidade com LGPD, workshop para liderança ou campanha temática de conscientização.",
+    items: ["Workshops e palestras", "LGPD na prática", "Onboarding de segurança", "Campanhas temáticas", "Defesa executiva"],
   },
 ];
 

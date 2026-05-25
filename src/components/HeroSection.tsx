@@ -3,9 +3,9 @@ import { Shield, ChevronRight, ChevronDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const stats = [
-  { value: "86%", label: "Redução de Phishing", color: "text-green-brand" },
-  { value: "100%", label: "Conformidade LGPD", color: "text-green-light" },
-  { value: "0", label: "Custo de Licença", color: "text-foreground" },
+  { value: "+5 anos", label: "Operando programas de awareness", color: "text-green-brand" },
+  { value: "LGPD", label: "Conformidade garantida pela metodologia", color: "text-green-light" },
+  { value: "R$0", label: "Custo de licença de plataforma", color: "text-foreground" },
   { value: "On-Premise", label: "Soberania de Dados", color: "text-green-brand" },
 ];
 

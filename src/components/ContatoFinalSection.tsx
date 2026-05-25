@@ -19,7 +19,7 @@ const ContatoFinalSection = () => {
           </p>
           <Button asChild size="lg" className="h-14 px-8 text-base shadow-green-glow">
             <a
-              href="https://wa.me/5511951943047"
+              href="https://wa.me/551152418998"
               target="_blank"
               rel="noopener noreferrer"
             >

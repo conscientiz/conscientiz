@@ -1,21 +1,6 @@
-import { useState, FormEvent } from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { toast } from "@/hooks/use-toast";
 
 const ChecklistCTASection = () => {
-  const [email, setEmail] = useState("");
-
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    window.open(
-      "https://raw.githubusercontent.com/conscientiz/conscientiz/main/public/conscientiz-checklist.pdf",
-      "_blank",
-      "noopener,noreferrer"
-    );
-  };
-
   return (
     <section className="py-24 bg-navy-deep border-t border-border/20">
       <div className="container mx-auto px-4">
@@ -36,25 +21,29 @@ const ChecklistCTASection = () => {
             riscos humanos de segurança na sua organização.
           </p>
 
-          <form
-            onSubmit={handleSubmit}
-            className="flex flex-col sm:flex-row gap-3 max-w-2xl mx-auto"
-          >
-            <Input
-              type="email"
-              required={false}
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="Seu melhor e-mail corporativo"
-              className="flex-1 h-12 bg-background/50 border-border/40"
-            />
-            <Button type="submit" size="lg" className="h-12 shadow-green-glow">
-              Quero o Checklist Gratuito
-            </Button>
-          </form>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a
+              href="https://raw.githubusercontent.com/conscientiz/conscientiz/main/public/conscientiz-checklist.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center font-bold text-white bg-[#7dc242] hover:bg-[#7dc242]/90 transition-colors shadow-green-glow"
+              style={{ borderRadius: "8px", padding: "14px 28px" }}
+            >
+              📋 Baixar Checklist Gratuito
+            </a>
+            <a
+              href="https://wa.me/5511951943047"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center font-bold text-[#7dc242] border-2 border-[#7dc242] hover:bg-[#7dc242]/10 transition-colors"
+              style={{ borderRadius: "8px", padding: "12px 26px" }}
+            >
+              📅 Quero agendar meu Diagnóstico Gratuito
+            </a>
+          </div>
 
-          <p className="text-xs text-muted-foreground mt-4">
-            Sem spam. Apenas conteúdo relevante sobre segurança humana.
+          <p className="text-xs text-muted-foreground mt-6">
+            Sem compromisso. Uma conversa de 60 minutos que pode mudar a segurança da sua organização.
           </p>
         </motion.div>
       </div>

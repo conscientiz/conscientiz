@@ -1,26 +1,26 @@
 import { motion } from "framer-motion";
-import { Server, Database, DollarSign, GraduationCap, Check, X } from "lucide-react";
+import { Search, MessageSquareHeart, GraduationCap, LineChart, Check, X } from "lucide-react";
 
 const features = [
   {
-    icon: Server,
-    title: "On-Premise",
-    desc: "Instalação no seu ambiente. Nenhum dado sensível trafega por nuvens de terceiros.",
+    icon: Search,
+    title: "Diagnóstico de Comportamento",
+    desc: "Antes de qualquer treinamento, entendemos como sua organização se comporta de verdade. Não assumimos — medimos. O programa começa com dados, não com suposições.",
   },
   {
-    icon: Database,
-    title: "Soberania de Dados",
-    desc: "Conformidade total com LGPD. Você mantém controle absoluto sobre as informações.",
-  },
-  {
-    icon: DollarSign,
-    title: "Zero Custo de Licença",
-    desc: "Plataforma Open Source. Transforme custo de licenciamento em investimento operacional.",
+    icon: MessageSquareHeart,
+    title: "Comunicação que Engaja",
+    desc: "Segurança precisa ser entendida por pessoas, não por sistemas. Criamos campanhas, materiais e experiências que falam a língua do seu colaborador — do operador ao C-level.",
   },
   {
     icon: GraduationCap,
     title: "Teachable Moment",
-    desc: "Metodologia educativa que cria momentos de aprendizado no exato instante do erro.",
+    desc: "Quando alguém erra, esse é o melhor momento para aprender. Nossa metodologia captura o erro em tempo real e o transforma em aprendizado imediato — sem punição, com impacto.",
+  },
+  {
+    icon: LineChart,
+    title: "Gestão Contínua e Métricas Reais",
+    desc: "Entregamos relatórios para gestores com evolução real de comportamento, não só taxas de clique. Planejamos, executamos e ajustamos o programa mês a mês.",
   },
 ];
 

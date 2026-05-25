@@ -104,6 +104,10 @@ const SolucaoSection = () => {
             ))}
           </div>
 
+          <p className="text-center mt-12 mb-8 max-w-3xl mx-auto text-lg md:text-xl font-display font-semibold italic text-foreground">
+            "Ferramentas qualquer empresa instala. Programa que muda cultura, só quem entende de pessoas constrói."
+          </p>
+
           <div className="text-center mt-8">
             <a
               href="#contato"

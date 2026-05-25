@@ -87,7 +87,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-3xl"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-3xl"
         >
           {stats.map((stat) => (
             <div

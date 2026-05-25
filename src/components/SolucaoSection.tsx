@@ -1,26 +1,26 @@
 import { motion } from "framer-motion";
-import { Server, Database, DollarSign, GraduationCap, Check, X } from "lucide-react";
+import { Search, MessageSquareHeart, GraduationCap, LineChart, Check, X } from "lucide-react";
 
 const features = [
   {
-    icon: Server,
-    title: "On-Premise",
-    desc: "Instalação no seu ambiente. Nenhum dado sensível trafega por nuvens de terceiros.",
+    icon: Search,
+    title: "Diagnóstico de Comportamento",
+    desc: "Antes de qualquer treinamento, entendemos como sua organização se comporta de verdade. Não assumimos — medimos. O programa começa com dados, não com suposições.",
   },
   {
-    icon: Database,
-    title: "Soberania de Dados",
-    desc: "Conformidade total com LGPD. Você mantém controle absoluto sobre as informações.",
-  },
-  {
-    icon: DollarSign,
-    title: "Zero Custo de Licença",
-    desc: "Plataforma Open Source. Transforme custo de licenciamento em investimento operacional.",
+    icon: MessageSquareHeart,
+    title: "Comunicação que Engaja",
+    desc: "Segurança precisa ser entendida por pessoas, não por sistemas. Criamos campanhas, materiais e experiências que falam a língua do seu colaborador — do operador ao C-level.",
   },
   {
     icon: GraduationCap,
     title: "Teachable Moment",
-    desc: "Metodologia educativa que cria momentos de aprendizado no exato instante do erro.",
+    desc: "Quando alguém erra, esse é o melhor momento para aprender. Nossa metodologia captura o erro em tempo real e o transforma em aprendizado imediato — sem punição, com impacto.",
+  },
+  {
+    icon: LineChart,
+    title: "Gestão Contínua e Métricas Reais",
+    desc: "Entregamos relatórios para gestores com evolução real de comportamento, não só taxas de clique. Planejamos, executamos e ajustamos o programa mês a mês.",
   },
 ];
 
@@ -44,15 +44,14 @@ const SolucaoSection = () => {
         {/* Header */}
         <motion.div {...fadeInUp} className="text-center mb-16">
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">
-            Nossa Solução
+            Metodologia ConscientiZ
           </span>
           <h2 className="font-display font-bold text-3xl md:text-4xl lg:text-5xl mt-3 mb-6">
-            Gophish + Metodologia{" "}
+            Metodologia{" "}
             <span className="text-gradient-green">ConscientiZ</span>
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto text-lg">
-            Unimos o poder da plataforma Open Source Gophish com nossa metodologia
-            educativa exclusiva para criar mudança real de comportamento.
+            A maioria dos programas de segurança é criada por times de TI que aprenderam a comunicar. O nosso foi criado por especialistas em comunicação que dominam segurança — e que operam programas assim todos os dias.
           </p>
         </motion.div>
 
@@ -104,6 +103,10 @@ const SolucaoSection = () => {
               </div>
             ))}
           </div>
+
+          <p className="text-center mt-12 mb-8 max-w-3xl mx-auto text-lg md:text-xl font-display font-semibold italic text-foreground">
+            "Ferramentas qualquer empresa instala. Programa que muda cultura, só quem entende de pessoas constrói."
+          </p>
 
           <div className="text-center mt-8">
             <a
